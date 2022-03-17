@@ -13,7 +13,7 @@ function somme(nombres) {
 //console.log(somme(nombres));
 
 // avec es6
-// on entre les valeurs libres dans un tableau parametres => varags java
+// on entre les valeurs libres dans un array => varags java
 function faireLaSomme(...parametres) {
   console.log(parametres);
   let somme = 0;
